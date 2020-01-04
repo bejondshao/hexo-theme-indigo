@@ -13,28 +13,36 @@ menu:
     url: /
   archives:
     url: /archives
+  categories:
+    url: /categories
   tags:
     url: /tags
+  celing:
+    text: 侧聆
+    url: http://bejond.org
+  about:
+    #text: 关于
+    url: /about/index.html
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/bejondshao
     target: _blank
   weibo:
-    url: http://www.weibo.com/ysweb
+    url: http://www.weibo.com/slbxts
     target: _blank
-  link:
-    text: 测试
-    url: /404
+  #link:
+    #text: 测试
+    #url: /404
 
 rss: /atom.xml
 
 #你的头像url
-avatar: /img/logo.jpg
+avatar: /img/logo1.png
 
 #添加图像点击链接，默认为主目录，可根据需要修改about等目录
 avatar_link: /
 
 # email
-email: 634206017@qq.com
+email: a@bejond.org
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
@@ -55,9 +63,9 @@ share: true
 
 #是否开启打赏，关闭 reward: false
 reward:
-  title: 谢谢大爷~
+  title: 谢谢你给二狗买🐱粮
   wechat: /img/wechat.jpg     #微信，关闭设为 false
-  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
+  alipay: false #/img/alipay.jpg     #支付宝，关闭设为 false
 
 #是否开启搜索
 search: true
@@ -74,8 +82,8 @@ toc:
 cnzz: false
 
 # Miscellaneous
-google_analytics: ''
-favicon: /favicon.ico
+# google_analytics: ''
+favicon: /img/favicon.ico
 
 # less
 less:
@@ -85,4 +93,4 @@ less:
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: ysblog
+# duoshuo: 

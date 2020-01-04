@@ -1,5 +1,11 @@
 {
     "name": "hexo-theme-material-indigo",
     "version": "0.5.1",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "hexo-generator-feed": "^2.2.0",
+        "hexo-generator-json-content": "^4.1.6",
+        "hexo-helper-qrcode": "^1.0.2",
+        "hexo-renderer-less": "^1.0.0"
+    }
 }
